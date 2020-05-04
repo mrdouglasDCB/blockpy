@@ -42,11 +42,11 @@ First, setup a root directory for this project. This directory should look somet
 
 The respective commands to create these folders should be something along the lines of (note that some of these clones can take a while):
 
-    > git clone https://github.com/RealTimeWeb/blockly.git
-    > git clone https://github.com/RealTimeWeb/blockpy.git
+    > git clone https://github.com/blockpy-edu/blockly.git
+    > git clone https://github.com/blockpy-edu/blockpy.git
     > wget https://github.com/google/closure-library/zipball/master -O closure.zip
     > unzip closure.zip
-    > git clone https://github.com/RealTimeWeb/skulpt.git
+    > git clone https://github.com/blockpy-edu/skulpt.git
 
 You'll need to build Skulpt and Blockly. Both of these depend on the Closure Compiler, so you'll need to put that in the empty `closure-library` folder.
     
