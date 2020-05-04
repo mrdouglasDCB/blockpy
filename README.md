@@ -60,7 +60,7 @@ Next, you'll need to build Blockly. The en.js file doesn't quite build correctly
     > cd blockly
     > python build.py
     > cd ..
-    > mv -force en.js blockly/msg/js/en.js
+    > mv --force en.js blockly/msg/js/en.js
 
 Note that blockly builds in python2
 
